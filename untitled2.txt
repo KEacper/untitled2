@@ -1,0 +1,18 @@
+%inercyjny I rzędu     inercyjny II rzędu      calkujacy
+%   ko                        ko                   1
+%----------e^-tau*s      ----------e^-tau*s    -------e^-tau*s
+% (T*s+1)                (T*s+1)^2              (Tc*s)
+%
+%T=(t90-t10)/2.2        T=(t90-t10)/3.3        Tc=1/a
+%tau=t10-0.1*T          tau=t10-0.53*T         tau=-b/a
+%                                              T1=5*tau lub 
+%                                              T1=2.5*tau
+%                                              T2=tau/2
+%kp=(0.34*T)/ko*tau     kp=(0.68*T)/ko*tau     kp=(0.73*Tc)/tau lub
+%                                              kp=(4/3*Tc)/tau
+%Ti=T                   Ti=2*T                 Ti=T1+T2
+%Td=Ti/4                Td=Ti/4                Td=(T1*T2)/(T1+T2)
+%P=kp                   P=kp                   P=kp
+%I=kp/Ti                I=kp/Ti                I=kp/Ti
+%D=kp*Td                D=kp*Td                D=kp*Td
+
