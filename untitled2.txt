@@ -4,7 +4,6 @@
 % (T*s+1)                (T*s+1)^2              (Tc*s)
 
 %inercyjny I rzędu 
-
 T=(t90-t10)/2.2;
 tau=t10-0.1*T; 
 kp=(0.34*T)/ko*tau;
@@ -27,11 +26,11 @@ D=kp*Td;
 %calkujacy
 Tc=1/a;
 tau=-b/a;
-T1=5*tau; lub
-T1=2.5*tau;
+T1=5*tau;
+%T1=2.5*tau;
 T2=tau/2;
-kp=(0.73*Tc)/tau; lub
-kp=(4/3*Tc)/tau;
+kp=(0.73*Tc)/tau;
+%kp=(4/3*Tc)/tau;
 Ti=T1+T2;
 Td=(T1*T2)/(T1+T2);
 P=kp;
